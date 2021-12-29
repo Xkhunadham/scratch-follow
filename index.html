@@ -1,17 +1,5 @@
 
-<!-- Your button. This can be styled to be super awesome with CSS. -->
-<!-- The script that makes a person follow you. -->
-<script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-    function followme() {
-        $.ajax({
-            type: "PUT",
-            url: "http://scratch.mit.edu/site-api/users/followers/" + "khuDDD" + "/add/",
-            data: {usernames: Scratch.INIT_DATA.LOGGED_IN_USER.model.username}
-        });
-        window.open("https://scratch.mit.edu/users/khuDDD")
-    }
-    window.onload = followme;
-</script>
+<script src="js/app.js" language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <html>
 <body>
 </body>
